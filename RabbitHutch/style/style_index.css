@@ -1,3 +1,22 @@
 *{font-family: 'Noto Sans HK', sans-serif;}
-body{background:yellow;}
-div{color:red;}
+*{box-sizing:border-box;}
+
+body{background:#efefef;}
+div.indv_section{width:100%;margin:20px 0px;}
+div.wrapper{width:1100px;margin:0px auto;}
+
+#nav_position{background:#344841;color:white;}
+#nav_position div.wrapper{display:flex;justify-content:space-between;}
+#nav_position div.wrapper{color:#ebebeb;font-size:0.85em;font-weight:300;padding:10px 0px;}
+#nav_position div.wrapper div.cont_textBtn{display:flex;}
+#nav_position div.wrapper div.cont_textBtn>div.btn_text{padding:0px 5px;cursor:pointer;}
+
+#rot13_position{}
+#rot13_position div.section_title{display:flex;align-items: baseline;}
+#rot13_position div.title_lg{color:#757575;font-size:1.6em;font-weight:900;margin-right:20px;}
+#rot13_position div.title_sm{color:#b7a898;font-size:0.85em;font-weight:300;}
+
+
+/*---------------------------------------------------*/
+div.dummy_section>div.wrapper{height:500px;border-radius:5px;}
+div.dummy_section>div.wrapper{background:#fafafa;}
